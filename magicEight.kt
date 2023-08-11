@@ -14,17 +14,17 @@ println(values)
         println("I can’t tell you right now.")
         println("To exit the game, simply type in Exit.")
   
-      val guessUser = "userSide"; "getUserInput()"
+      val guessInput = "userSide"; "getUserInput()"
     
     
-        if(guessUser == "Exit" || guessUser == "exit"){
+        if(guessInput == "Exit" || guessInput == "exit"){
             println("Thanks for playing!")
             break
-        } else ifguessUser == ""){ 
+        } else if(guessInput == ""){ 
             println("Please put in a valid answer.")
             continue@loop 
         }
 
-        println("User: $guessUser.")
+        println("User: $guessInput.")
    }
  }
